@@ -1,0 +1,91 @@
+/* make splitinfo div class so that the two info sections (competitions and projects) are side by side when viewed on page, */
+
+body {
+	margin: auto ;
+	color: #F0F4F8;
+	background: rgba(0,0,0,.2);
+	padding: 40px;
+	border-radius: 10px;
+}
+
+body { max-width: 900px; }
+
+strong { color: white; }
+
+a strong { color: lime; }
+details { padding-left: 20px; text-decoration: underline; }
+
+pre {
+	background: #222 ;
+	border: 1px solid lime;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 30px;
+}
+
+ul {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+li img, p img {
+	max-height: 1em;
+	max-width: 1em;
+}
+
+html {
+	padding-top: 10px;
+	background: linear-gradient(#6D7B8D, #424c56) no-repeat fixed;
+	margin-bottom: 500px;
+
+}
+
+h1,h2 { text-align: center; }
+
+h1 { color: #F0F4F8; 
+font-size:  3rem;}
+
+h2 { color: #ff6347; }
+
+a { color: #659EC7;}
+
+a:hover { color: greenyellow;}
+.new a:hover { color: greenyellow; }
+
+
+dt { font-weight: bold; color: lightgray; }
+
+.resright {
+	display: block;
+	margin: auto;
+	max-width: 90%;
+}
+
+/* .lol {
+	padding: .25em ;
+}
+
+.lol ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+
+@media (min-width: 55em) {
+	.lol { display: inline-block; vertical-align: top ; }
+
+	.resright {
+		float: right;
+		padding: 20px ;
+		clear: both ;
+		max-width: 300px ;
+	}
+*/
+
+footer {
+    font-size: 1.25rem;
+	margin: auto;
+	max-width: 500px;
+    text-align: center;
+}
+
